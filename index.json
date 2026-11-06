@@ -1,0 +1,64 @@
+{
+ "name": "c0lonnello-skills-store",
+ "version": "1.0.0",
+ "date": "2026-11-04",
+ "skills": [
+  {
+   "name": "finding-validation-supergate",
+   "file": "finding-validation-supergate.zip",
+   "bytes": 27353,
+   "sha256": "e66a2ce912da946e",
+   "description": "Use when finalizing any finding, report, or claim."
+  },
+  {
+   "name": "pentest-anti-false-positive-lessons",
+   "file": "pentest-anti-false-positive-lessons.zip",
+   "bytes": 4555,
+   "sha256": "50f242d7643c3369",
+   "description": "Use when triaging or verifying a pentest finding."
+  },
+  {
+   "name": "curiosity-loop",
+   "file": "curiosity-loop.zip",
+   "bytes": 16982,
+   "sha256": "9a50c50af6b3526d",
+   "description": "Use to auto-iterate an engagement without re-prompting."
+  },
+  {
+   "name": "evidence-hygiene",
+   "file": "evidence-hygiene.zip",
+   "bytes": 7640,
+   "sha256": "d4c2e2bbd0bdd55a",
+   "description": "Evidence-capture and PoC-redaction discipline for bug-bounty submissions: cookie redaction protocol (which fields to mask, Preview annotation / Burp p"
+  },
+  {
+   "name": "hunt-idor",
+   "file": "hunt-idor.zip",
+   "bytes": 9071,
+   "sha256": "22e12da9aeae3c59",
+   "description": "Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports. Use when hunting idor on any target."
+  },
+  {
+   "name": "hunt-ssrf",
+   "file": "hunt-ssrf.zip",
+   "bytes": 10599,
+   "sha256": "61b811a2dd1ac118",
+   "description": "Hunting skill for ssrf vulnerabilities. Built from 15 public bug bounty reports including AWS metadata SSRF (HackerOne $25k Analytics PDF, Shopify Exc"
+  },
+  {
+   "name": "blocked-page-recovery",
+   "file": "blocked-page-recovery.zip",
+   "bytes": 13482,
+   "sha256": "e219292b507242c8",
+   "description": "Use when a fetch fails: 403/429, paywall, WAF, bot wall."
+  },
+  {
+   "name": "bug-bounty-report-writing",
+   "file": "bug-bounty-report-writing.zip",
+   "bytes": 59519,
+   "sha256": "59750a68f60dccc6",
+   "description": "Use when writing bug bounty or pentest report submissions."
+  }
+ ],
+ "note": "Pacotes zip de skills Hermes curadas p/ pentest/bug-bounty. Instalar = unzip em ~/.hermes/skills/<nome>/ (ou profile)."
+}
